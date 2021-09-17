@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- mapper:根标签，namespace：命名空间，dao接口的路径，一般保证命名空间唯一 -->
+<mapper namespace="com.tracy.ssm.build.dao.BookDao">
+    <!-- statement，内容：sql语句。id：唯一标识，随便写，在同一个命名空间下保持唯一
+       resultType：sql语句查询结果集的封装类型,User即为com.tracy.ssm.domain.User的别名
+     -->
+    <!---->
+    <select id="queryBookById" resultType="Book">
+        select bookID, bookName, bookCounts, detail from books where bookID=#{bookID}
+    </select>
+
+    <insert id="addBooke">
+        insert into books (bookName,bookCounts,detail) values (#{bookName},#{bookCounts}, #{detail})
+    </insert>
+    <update id="updateBook" parameterType="Book">
+        UPDATE BOOKS SET bookName=#{bookName}, bookCounts=#{bookCounts}, detail=#{detail} where bookID=#{bookID}
+    </update>
+    <delete id="deleteById">
+        delete from books where bookID=#{bookId}
+    </delete>
+    <select id="queryAllBooks" resultType="Book">
+        select * from books
+    </select>
+</mapper>

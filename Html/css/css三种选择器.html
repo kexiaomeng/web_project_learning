@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三种选择器</title>
+    <!--1. id选择器：给标签定义id 优先级最高语法 #id{}-->
+    <!--2. 元素选择器： 选择对应的标签-->
+    <!--3. 类选择器：选择具有相同class属性的元素 语法  .class名称 {-->
+    <style>
+        #div1{
+        /*// id选择器*/
+            color: red;
+        }
+        div{
+        /*// 元素选择器*/
+            color: yellow;
+        }
+        /*类选择器*/
+        .p{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1">hello world</div>
+    <div>hello world</div>
+    <p class="p">hello world</p>
+</body>
+</html>

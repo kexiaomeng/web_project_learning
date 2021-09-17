@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Element对象</title>
+</head>
+    <a id="hre">点击我进行跳转</a>
+
+    <a id="void" href="javascript:void(0);"> 点击后不进行跳转</a>
+
+    <input type="button" id="set_attr" value="设置属性">
+
+    <input type="button" id="rem_attr" value="删除属性">
+
+    <script>
+        var set = document.getElementById("set_attr");
+        var rem = document.getElementById("rem_attr");
+        var hre = document.getElementById("hre");
+        set.onclick = function () {
+            hre.setAttribute("href","http://www.baidu.com");
+        };
+
+        rem.onclick = function () {
+            hre.removeAttribute("href");
+
+        };
+    </script>
+</body>
+</html>

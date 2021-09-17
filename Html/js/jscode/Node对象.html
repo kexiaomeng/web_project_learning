@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Node对象</title>
+    <style>
+        #div1{
+            border: red solid 1px;
+            width: 200px;
+            height: 200px;
+        }
+        #div2{
+            border: red solid 1px;
+            width: 100px;
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div1" >
+        <div id="div2">
+            div2
+        </div>
+        div1
+    </div>
+
+    <a id="dele" href="javascript:void(0);">删除子节点</a>
+    <a id="add" href="javascript:void(0);">增加子节点</a>
+    <script>
+        var dele = window.document.getElementById("dele");
+        var add = window.document.getElementById("add");
+        dele.onclick = function () {
+            var div1 = window.document.getElementById("div1");
+            var div2 = window.document.getElementById("div2");
+            div1.removeChild(div2);
+        }
+
+        add.onclick = function () {
+
+            var div3 = document.createElement("div");
+            div3.setAttribute("id", "div2");
+            div1.appendChild(div3);
+        }
+
+    </script>
+</body>
+</html>

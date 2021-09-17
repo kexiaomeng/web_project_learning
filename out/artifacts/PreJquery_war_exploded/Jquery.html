@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery/jquery-3.3.1.min.js" ></script>
+</head>
+<body>
+    <div id="div1">div1</div>
+    <div id="div2">div2</div>
+
+    <script>
+        // 1. 通过jquery获取元素对象,其中#代表id
+        var divObj = $("#div1");
+        alart(divObj)
+
+        // 1.通过js获取suoyoudiv
+        var div_js = document.getElementsByTagName("div");
+        for (var i = 0; i < div_js.length; i++) {
+            div_js[i].innerHTML = "aaaa";
+            //js转换为jquery
+            $(div_js[i]).html("vvv")
+        }
+
+        alert(div_js);
+       var divs = $("div");
+       alert(divs);
+        divs.html("bbb");
+        for (var i = 0; i < divs.length; i++) {
+            alert(divs[i])
+        }
+
+
+        //jquery转换为js:[]或者get();
+
+    </script>
+</body>
+</html>

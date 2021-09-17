@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒子模型</title>
+    <style>
+        div{
+            color: green;
+            border: 3px solid;
+        }
+        .div1{
+            width: 200px;
+            height: 200px;
+            padding: 50px;
+            box-sizing: border-box; /*盒子的大小固定*/
+        }
+        .div2{
+            width: 100px;
+            height: 100px;
+            /*margin: 50px;*/
+        }
+        .div3{
+            float: left;
+            /*margin: 50px;*/
+        }
+        .div4{
+            float: left;
+            /*margin: 50px;*/
+        }
+        .div5{
+            float: right;
+            /*margin: 50px;*/
+        }
+        /*margin 外边距*/
+        /*padding 内边距 默认情况下内边距会影响整个盒子的大小*/
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2"></div>
+    </div>
+
+<div class="div3">
+    111
+</div>
+    <div class="div4">
+222
+    </div>
+    <div class="div5">
+333
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="maven-web_ssm_springboot" />
+        <module name="maven_web_new" />
+        <module name="maven_web_springmvc" />
+        <module name="maven_web_springmvc_annotation" />
+        <module name="maven_web_springmvc_annotation_nowebxml" />
+        <module name="maven_web_ssm" />
+        <module name="maven_web_ssm_two" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="maven-web_ssm_springboot" target="1.8" />
+      <module name="maven_web" target="1.8" />
+      <module name="maven_web_new" target="1.8" />
+      <module name="maven_web_springmvc" target="1.8" />
+      <module name="maven_web_springmvc_annotation" target="1.8" />
+      <module name="maven_web_springmvc_annotation_nowebxml" target="1.8" />
+      <module name="maven_web_ssm" target="1.8" />
+      <module name="maven_web_ssm_two" target="1.8" />
+      <module name="springmvc02hello" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

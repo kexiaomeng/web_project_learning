@@ -1,0 +1,20 @@
+
+Vsquid:S11611":Add the "@Override" annotation above this method signature(Ïû©Öûÿÿÿÿ
+bsquid:UselessImportCheck"9Remove this unused import 'java.awt.image.BufferedImage'.(×íĞ‡şÿÿÿÿ
+T
+squid:S106$"9Replace this use of System.out or System.err by a logger.(¼ËñØúÿÿÿÿ
+Qsquid:S1161":Add the "@Override" annotation above this method signature(‹¨¯¿
+Asquid:S19892"%Add a "try/catch" block for "doPost".(ã÷éíùÿÿÿÿ
+Bsquid:S1989#"&Add a "try/catch" block for "forward".(ÜÕˆêøÿÿÿÿ
+Asquid:S19892"%Add a "try/catch" block for "doPost".(ã÷éíùÿÿÿÿ
+T
+squid:S106+"9Replace this use of System.out or System.err by a logger.(®¯Ğıÿÿÿÿ
+Bsquid:S1989*"&Add a "try/catch" block for "forward".(ÜÕˆêøÿÿÿÿ
+Bsquid:S1989*"&Add a "try/catch" block for "forward".(ÜÕˆêøÿÿÿÿ
+Bsquid:S1989#"&Add a "try/catch" block for "forward".(ÜÕˆêøÿÿÿÿ
+Vsquid:UselessImportCheck"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ
+Vsquid:UselessImportCheck"2Remove this unused import 'javax.imageio.ImageIO'.(‘çÔû
+Qsquid:S1191"5Use classes from the Java API instead of Sun classes.(À¡Éåøÿÿÿÿ
+Bsquid:S1989"+Add a "try/catch" block for "sendRedirect".(Á¥š²
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(À‘ä

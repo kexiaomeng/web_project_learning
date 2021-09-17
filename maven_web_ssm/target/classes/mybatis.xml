@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- 根标签 -->
+<configuration>
+
+    <!--<settings>-->
+
+    <!--&lt;!&ndash;<setting name="jdbcTypeForNull" value="OTHER"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;匹配数据库的时候驼峰命名&ndash;&gt;-->
+    <!--&lt;!&ndash;<setting name="mapUnderscoreToCamelCase" value="true"></setting>&ndash;&gt;-->
+    <!--</settings>-->
+
+    <typeAliases>
+        <!--<typeAlias type="com.nari.sun.vo.SbSecretekey" alias="SbSecreteKey"/>-->
+
+        <package name="com.tracy.ssm.domain" />
+    </typeAliases>
+
+
+    <mappers>
+        <!--使用package可以减少配置xml的路径，但是要求是mapper文件必须和mapper接口在一个目录下-->
+        <!--package不生效，无法读取xml配置文件，不知道原因-->
+        <!--<package name="com.tracy.ssm.dao"/>-->
+
+        <mapper resource="mapper/UserDao.xml"/>
+        <!--<mapper resource="mapper/SbDaoImpl.xml"/>-->
+        <!--<mapper resource="mapper/SbDao.xml"/>-->
+
+    </mappers>
+</configuration>

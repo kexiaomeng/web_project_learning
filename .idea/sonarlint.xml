@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="fileExclusions">
+      <list>
+        <option value="DIRECTORY:maven_web_ssm_two/src/main/java/com/tracy/ssm/build/controller/dao" />
+      </list>
+    </option>
+  </component>
+</project>

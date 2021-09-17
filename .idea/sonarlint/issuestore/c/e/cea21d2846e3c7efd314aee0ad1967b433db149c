@@ -1,0 +1,12 @@
+
+Bsquid:S1989."$Add a "try/catch" block for "doGet".(ï¶ßû8Ú‘ü÷ù-
+bsquid:S2147""DCombine this catch with the one at line 32, which has the same body.(åşáÿ8·É€øù-
+usquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ÿ´(8ğŞøù-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8€€øù-
+Fsquid:S1148#"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8·É€øù-
+Vsquid:S1989"3Add a "try/catch" block for "setCharacterEncoding".(Ó‹ÊÍüÿÿÿÿ8Ø÷øù-
+Ksquid:S1191"5Use classes from the Java API instead of Sun classes.(ÿî¥(
+Bsquid:S1989."$Add a "try/catch" block for "doGet".(ï¶ßû8Ú‘ü÷ù-
+fsquid:UselessImportCheck";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8€€øù-
+Fsquid:S1148!"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8·É€øù-
+Nsquid:S1989("+Add a "try/catch" block for "sendRedirect".( Š†öıÿÿÿÿ8Üª’øù-

@@ -1,0 +1,19 @@
+
+Isquid:S1989-"&Add a "try/catch" block for "forward".(ÜÕˆêøÿÿÿÿ8á‰¨Òù-
+Isquid:S1989-"&Add a "try/catch" block for "forward".(ÜÕˆêøÿÿÿÿ8á‰¨Òù-
+]squid:S11614":Add the "@Override" annotation above this method signature(Ïû©Öûÿÿÿÿ8á‰¨Òù-
+[
+squid:S106'"9Replace this use of System.out or System.err by a logger.(¼ËñØúÿÿÿÿ8á‰¨Òù-
+usquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ÿ´(8á‰¨Òù-
+Hsquid:S19895"%Add a "try/catch" block for "doPost".(ã÷éíùÿÿÿÿ8á‰¨Òù-
+V
+squid:S106!"9Replace this use of System.out or System.err by a logger.(À‘ä8á‰¨Òù-
+Isquid:S1989&"&Add a "try/catch" block for "forward".(ÜÕˆêøÿÿÿÿ8á‰¨Òù-
+Hsquid:S19895"%Add a "try/catch" block for "doPost".(ã÷éíùÿÿÿÿ8á‰¨Òù-
+[
+squid:S106."9Replace this use of System.out or System.err by a logger.(®¯Ğıÿÿÿÿ8á‰¨Òù-
+Isquid:S1989 "+Add a "try/catch" block for "sendRedirect".(¶°Ìé8èÚŠÕ‡.
+Isquid:S1989&"&Add a "try/catch" block for "forward".(ÜÕˆêøÿÿÿÿ8á‰¨Òù-
+Qsquid:S1989"3Add a "try/catch" block for "setCharacterEncoding".(ï‡‹ê8á‰¨Òù-
+Rsquid:S1191"5Use classes from the Java API instead of Sun classes.(ÿî¥(8á‰¨Òù-
+Xsquid:S1161":Add the "@Override" annotation above this method signature(‹¨¯¿8á‰¨Òù-

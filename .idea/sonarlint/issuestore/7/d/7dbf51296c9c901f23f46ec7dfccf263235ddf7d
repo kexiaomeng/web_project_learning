@@ -1,0 +1,12 @@
+
+xsquid:UselessImportCheck"HRemove this unused import 'java.lang.reflect.InvocationTargetException'.(è¾†„øÿÿÿÿ8á¨Óøù-
+Hsquid:S1989"%Add a "try/catch" block for "doPost".(éöõ¦ùÿÿÿÿ8á“éÒˆ.
+Gsquid:S1989%"+Add a "try/catch" block for "sendRedirect".( Š†öıÿÿÿÿ
+nsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ÿ´(
+ssquid:UselessImportCheck"CRemove this unused import 'org.apache.commons.beanutils.BeanUtils'.(êŸ±öşÿÿÿÿ8á¨Óøù-
+Osquid:S1989"3Add a "try/catch" block for "setCharacterEncoding".(Ó‹ÊÍüÿÿÿÿ
+Hsquid:S1989"%Add a "try/catch" block for "doPost".(éöõ¦ùÿÿÿÿ8á“éÒˆ.
+nsquid:UselessImportCheck"CRemove this unused import 'com.sun.tracy.userlistcase.entity.User'.(à¥–ÿ8á¨Óøù-
+Jsquid:S1989!"'Add a "try/catch" block for "parseInt".(¾È™şÿÿÿÿ8ÖŠÕøù-
+Ksquid:S1191"5Use classes from the Java API instead of Sun classes.(ÿî¥(
+Zsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8ÚèÑøù-

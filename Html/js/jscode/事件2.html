@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js dom测试</title>
+</head>
+<body>
+<!--<h1 id="title">孙萌</h1>-->
+<img id="light" src="light/off.gif">
+<input type="text" placeholder="请输入内容" name="value" id="input">
+
+<script>
+    // 1. 事件直接绑定在html标签上
+    // 2. 使用dom方式
+    function fun() {
+        if (flag) {
+            light.src = "light/off.gif";
+            flag = false;
+
+        } else{
+            light.src = "light/on.gif";
+            flag = true;
+        }
+    }
+
+    var light = document.getElementById("light");
+// 绑定事件
+    light.onclick = fun;
+
+    var flag = false;
+    var input = document.getElementById("input");
+    input.onblur = function () {
+        var reg1 = new RegExp("\\d{10}");
+        document.write(input.value);
+        if(reg1.test(input.value)) {
+            alert("合法");
+        }else{
+            alert("重新输入");
+
+        }
+    }
+
+    // var input = document.getElementById("input").onmousedown = function (event) {
+    //     alert(event.button);
+    // }
+
+
+
+</script>
+
+</body>
+</html>

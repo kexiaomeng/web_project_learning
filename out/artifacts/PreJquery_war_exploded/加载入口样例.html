@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery/jquery-3.3.1.min.js" >
+
+    </script>
+
+    <script>
+
+        $(function () {
+            $("#button").click(function () {
+                alert("点了我")
+            });
+            $("#div1").css("backgroundColor","green");
+            alert("入口1")
+        });
+
+        $(function () {
+            alert("入口2")
+        })
+    </script>
+
+</head>
+<body>
+    <div id="div1">div1</div>
+    <div id="div2">div2</div>
+    <input type="button" id="button" value="点我">
+
+    <script>
+        // 1.通过js获取div
+        var div_js = document.getElementsByTagName("div");
+        for (var i = 0; i < div_js.length; i++) {
+            // div_js[i].innerHTML = "aaaa";
+            //js转换为jquery
+            $(div_js[i]).html("vvv")
+        }
+
+        alert(div_js);
+       var divs = $("div");
+        alert(divs);
+        // divs.html("bbb");
+        // for (var i = 0; i < divs.length; i++) {
+        //     alert(divs)
+        // }
+
+
+        //jquery转换为js:[]或者get();
+
+    </script>
+</body>
+</html>

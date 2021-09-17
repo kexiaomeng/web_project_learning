@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url("img/register_bg.png") no-repeat center;
+}
+a:link{
+    color: red;
+}
+/*div{*/
+    /*color: red;*/
+    /*border: 1px solid;*/
+/*}*/
+.layout{
+    width: 900px;
+    height: 500px;
+    border: 8px solid #EEEEEE;
+    background-color: white;
+    margin: auto;
+
+}
+.rg-left{
+    float: left;
+    margin: 15px;
+}
+.p_rg_left_1{
+    font-size: 20px;
+    color: #FFD026;
+}
+.p_rg_left_2{
+    font-size: 20px;
+    color: #A6A6A6;
+}
+.rg-center{
+    /*text-align: center;*/
+    /*align-self: center;*/
+    float: left;
+    /*border: red solid 1px;*/
+}
+.rg-right{
+    float: right;
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+.rg_right_1{
+    font-size: 20px;
+    color: black;
+}
+.rg-form{
+    float: right;
+}
+.table{
+
+}
+.table_td_left{
+    width: 100px;
+    text-align: right;
+    height: 45px;
+}
+.table_td_right{
+    /*width: 100px;*/
+    padding-left: 50px;
+}
+
+#username,#passwd,#email,#name,#phone,#verify,#birth{
+    width: 200px;
+    height: 32px;
+    border: 1px solid #A6A6A6;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+#verify{
+    width: 100px;
+}
+#sub{
+    width: 150px;
+    height: 40px;
+    background-color: #FFD026;
+    border: 1px solid #FFD026;
+}
+
+#td_sub{
+    padding-left: 150px;
+}
+
+
+.img{
+    height: 32px;
+    vertical-align: middle;
+}
+.error{
+    color: red;
+    width: 300px;
+}
+
+
+

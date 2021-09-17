@@ -1,0 +1,8 @@
+
+Ksquid:S1191"5Use classes from the Java API instead of Sun classes.(ÿî¥(
+;squid:S1989"$Add a "try/catch" block for "doGet".(ï¶ßû
+;squid:S1989"$Add a "try/catch" block for "doGet".(ï¶ßû
+nsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ÿ´(
+Osquid:S1989"3Add a "try/catch" block for "setCharacterEncoding".(Ó‹ÊÍüÿÿÿÿ
+Gsquid:S1989"+Add a "try/catch" block for "sendRedirect".( Š†öıÿÿÿÿ
+Vsquid:S1197"8Move the array designator from the variable to the type.(›œØ8¶Ô‰¹ú-

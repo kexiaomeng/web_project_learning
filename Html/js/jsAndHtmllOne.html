@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js和html结合方式1</title>
+    <!--1. 内部标签，直接在<script>标签里写代码</script>-->
+    <!--2. 外部方式，通过<script>标签的src引入</script>-->
+    <!--可以定义多个-->
+</head>
+<body>
+    <input name="name">
+
+    <script>
+        var a = "sunmeng";
+        var num1 = 100;
+        var num2 = 300;
+        var num3 = 400;
+        document.write(num1 + "<br>");
+        document.write(num2+ "<br>");
+        document.write(num3+ "<br>");
+        alert(a);
+        var flag = false;
+        alert(flag);
+        document.write(flag+ "<br>");
+
+
+        var obj = null;
+        var str = "";
+        var unde;
+
+
+        if(obj) {
+            alert("hello obj");
+        }
+        if (str) {
+            alert("hello str");
+        }
+        if (unde) {
+            alert("helo unde");
+        }
+
+
+        function func() {
+            alert("hello world");
+        }
+        func()
+
+
+
+    </script>
+
+    <script src="jscode/myfirst.js"></script>
+
+</body>
+</html>

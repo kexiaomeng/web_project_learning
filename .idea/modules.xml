@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FilterTest/FilterTest.iml" filepath="$PROJECT_DIR$/FilterTest/FilterTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AJAX/JQuery.iml" filepath="$PROJECT_DIR$/AJAX/JQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PreJquery/PreJquery.iml" filepath="$PROJECT_DIR$/PreJquery/PreJquery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServletAnnotation/ServletAnnotation.iml" filepath="$PROJECT_DIR$/ServletAnnotation/ServletAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Html//Tourweb.iml" filepath="$PROJECT_DIR$/Html//Tourweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserCase/UserCase.iml" filepath="$PROJECT_DIR$/UserCase/UserCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../attachment/attachment.iml" filepath="$PROJECT_DIR$/../attachment/attachment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootstrap/bootstrap.iml" filepath="$PROJECT_DIR$/bootstrap/bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cookie/cookie.iml" filepath="$PROJECT_DIR$/cookie/cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elAndjstl/elAndjstl.iml" filepath="$PROJECT_DIR$/elAndjstl/elAndjstl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_web_ssm_springboot/maven-web_ssm_springboot.iml" filepath="$PROJECT_DIR$/maven_web_ssm_springboot/maven-web_ssm_springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_web/maven_web.iml" filepath="$PROJECT_DIR$/maven_web/maven_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_web_new/maven_web_new.iml" filepath="$PROJECT_DIR$/maven_web_new/maven_web_new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_web/maven_web_springmvc/maven_web_springmvc.iml" filepath="$PROJECT_DIR$/maven_web/maven_web_springmvc/maven_web_springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_web/maven_web_springmvc_annotation/maven_web_springmvc_annotation.iml" filepath="$PROJECT_DIR$/maven_web/maven_web_springmvc_annotation/maven_web_springmvc_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_web/maven_web_springmvc_annotation_nowebxml/maven_web_springmvc_annotation_nowebxml.iml" filepath="$PROJECT_DIR$/maven_web/maven_web_springmvc_annotation_nowebxml/maven_web_springmvc_annotation_nowebxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_web_ssm/maven_web_ssm.iml" filepath="$PROJECT_DIR$/maven_web_ssm/maven_web_ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_web_ssm_two/maven_web_ssm_two.iml" filepath="$PROJECT_DIR$/maven_web_ssm_two/maven_web_ssm_two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../registerDemo/registerDemo.iml" filepath="$PROJECT_DIR$/../registerDemo/registerDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sessionAndCookie/sessionAndCookie.iml" filepath="$PROJECT_DIR$/sessionAndCookie/sessionAndCookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sessionDemo/sessionDemo.iml" filepath="$PROJECT_DIR$/sessionDemo/sessionDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web.iml" filepath="$PROJECT_DIR$/web.iml" />
+    </modules>
+  </component>
+</project>

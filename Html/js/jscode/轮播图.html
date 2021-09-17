@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<img lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+</head>
+
+<img id="img"  src="light/team/1.jpg" width="100%" align="center"/>
+<script>
+    var img = document.getElementById("img");
+    var num = 1;
+    img.style.
+    function fun() {
+        num++;
+        if (num > 4){        num = 1;
+        }
+        img.src = "light/team/" + num+".jpg";
+    }
+
+    setInterval(fun, 3000);
+</script>
+</body>
+</html>

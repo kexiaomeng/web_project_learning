@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+
+    <div class="layout">
+        <div class="rg-left">
+            <p class="p_rg_left_1">新用户注册</p>
+            <p class="p_rg_left_2">USER REGISTER</p>
+        </div>
+        <div class="rg-center">
+            <div class="rg-form">
+                <form method="get" action="#" id="form">
+                    <table class="table">
+                        <tr>
+                            <td class="table_td_left">
+                                <label for="username">用户名</label>
+                            </td>
+                            <td class="table_td_right">
+                                <input name="username" id="username" placeholder="请输入账号">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table_td_left">
+                                <label for="passwd">密码</label>
+                            </td>
+                            <td class="table_td_right">
+                                <input type="password" name="passwd" id="passwd" placeholder="请输入密码">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table_td_left">
+                                <label for="email">Email</label>
+                            </td>
+                            <td class="table_td_right">
+                                <input type="email" name="email" id="email" placeholder="请输入账号">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table_td_left">
+                                <label for="name">姓名</label>
+                            </td>
+                            <td class="table_td_right">
+                                <input name="name" id="name" placeholder="请输入账号">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table_td_left">
+                                <label for="phone">手机号</label>
+                            </td>
+                            <td class="table_td_right">
+                                <input name="phone" id="phone" placeholder="请输入账号">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table_td_left">
+                                性别
+                            </td>
+                            <td class="table_td_right">
+                                <input type="radio" name="gender" value="male" checked>男
+                                <input type="radio" name="gender" value="female" >女
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table_td_left">
+                                <label for="birth">出生日期</label>
+                            </td>
+                            <td class="table_td_right">
+                                <input type="date" name="name" id="birth" placeholder="请输入生日">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table_td_left">
+                                <label for="verify">验证码</label>
+                            </td>
+                            <td class="table_td_right">
+                                <input name="verify" id="verify" placeholder="请输入账号">
+                                <img class="img" src="../images/verify_code.jpg">
+                            </td>
+                        </tr>
+                        <tr align="center">
+                            <td colspan="2">
+                                <input id="sub" type="submit" value="登录">
+                            </td>
+
+                        </tr>
+
+                    </table>
+                </form>
+            </div>
+
+        </div>
+        <div class="rg-right">
+            <p class="rg_right_1">已有帐号?<a href="#">立即登录</a></p>
+        </div>
+    </div>
+</body>
+</html>

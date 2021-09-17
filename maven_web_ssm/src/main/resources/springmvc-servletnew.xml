@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tool
+       http://www.springframework.org/schema/mvc
+       https://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <context:component-scan base-package="com.tracy.ssm.controller"/>
+    <context:component-scan base-package="com.tracy.ssm.handler"/>
+
+    <!-- 让Spring MVC不处理静态资源 -->
+    <mvc:default-servlet-handler/>
+    <!--
+  支持mvc注解驱动
+      在spring中一般采用@RequestMapping注解来完成映射关系
+      要想使@RequestMapping注解生效
+      必须向上下文中注册DefaultAnnotationHandlerMapping
+      和一个AnnotationMethodHandlerAdapter实例
+      这两个实例分别在类级别和方法级别处理。
+      而annotation-driven配置帮助我们自动完成上述两个实例的注入。
+   -->
+    <mvc:annotation-driven/>
+
+
+
+    <!--视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!--视图的路径前缀-->
+        <property name="prefix" value="/"/>
+        <!--路径的后缀-->
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+
+    <!--声明拦截器-->
+     <mvc:interceptors>
+         <mvc:interceptor>
+             <!--拦截的请求地址-->
+             <mvc:mapping path="/**"/>
+             <!--拦截器对象-->
+             <bean class="com.tracy.ssm.Interceptor.MyInterceptor"/>
+         </mvc:interceptor>
+
+     </mvc:interceptors>
+</beans>

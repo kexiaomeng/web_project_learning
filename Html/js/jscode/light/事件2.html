@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js dom测试</title>
+</head>
+<body>
+<h1 id="title">孙萌</h1>
+<img id="light" src="light/off.gif" onclick="fun()">
+
+<script>
+    // 1. 事件直接绑定在html标签上
+    // 2. 使用dom方式
+    function fun() {
+        alert('我被点击了');
+    }
+    var title = document.getElementById("title");
+    alert("更换内容");
+    title.innerHTML = "崔希"; // 表示更换内容
+
+    var light = document.getElementById("light");
+    alert("更换图片");
+
+    light.src = "light/on.gif";
+
+
+</script>
+
+</body>
+</html>

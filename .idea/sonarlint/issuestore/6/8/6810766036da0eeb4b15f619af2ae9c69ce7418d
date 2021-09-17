@@ -1,0 +1,12 @@
+
+Ksquid:S1191"5Use classes from the Java API instead of Sun classes.(ÿî¥(
+Asquid:S1989"%Add a "try/catch" block for "doPost".(éöõ¦ùÿÿÿÿ
+Asquid:S1989"%Add a "try/catch" block for "doPost".(éöõ¦ùÿÿÿÿ
+T
+squid:S106 "9Replace this use of System.out or System.err by a logger.(øêØØùÿÿÿÿ
+lsquid:UselessImportCheck"CRemove this unused import 'org.apache.commons.beanutils.BeanUtils'.(êŸ±öþÿÿÿÿ
+Ssquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
+gsquid:UselessImportCheck"CRemove this unused import 'com.sun.tracy.userlistcase.entity.User'.(à¥–ÿ
+tsquid:UselessImportCheck"KRemove this unused import 'com.sun.tracy.userlistcase.service.UserService'.(ÒÎÝ²ýÿÿÿÿ
+xsquid:UselessImportCheck"TRemove this unused import 'com.sun.tracy.userlistcase.service.impl.UserServiceImpl'.(ñÌ–„
+qsquid:UselessImportCheck"HRemove this unused import 'java.lang.reflect.InvocationTargetException'.(è¾†„øÿÿÿÿ

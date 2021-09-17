@@ -1,0 +1,9 @@
+
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8³‰¤ú-
+Ksquid:S1191"5Use classes from the Java API instead of Sun classes.(ÿî¥(
+Jsquid:S1989#"'Add a "try/catch" block for "parseInt".(ÃÉÂÖıÿÿÿÿ8‹¹„¤ú-
+usquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ÿ´(8ÉÀ÷£ú-
+Gsquid:S1989'"+Add a "try/catch" block for "sendRedirect".(“Ş÷€ıÿÿÿÿ
+]squid:S2441$":Make "User" serializable or don't store it in the session.(£™Õàûÿÿÿÿ8‡¸ƒ¤ú-
+Hsquid:S1989"%Add a "try/catch" block for "doPost".(éöõ¦ùÿÿÿÿ8×“éÒˆ.
+Hsquid:S1989"%Add a "try/catch" block for "doPost".(éöõ¦ùÿÿÿÿ8×“éÒˆ.

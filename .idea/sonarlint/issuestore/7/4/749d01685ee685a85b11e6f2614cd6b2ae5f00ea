@@ -1,0 +1,34 @@
+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(®ÖĞùÿÿÿÿ8¦İõ´û-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(åö¡½úÿÿÿÿ8ó™õñû-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ê×¼©8Şæ¡øù-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(åö¡½úÿÿÿÿ8›³şñû-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(‡›–8ìº‘òû-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ó‹ÿ£ú-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ö¡¹ê8ö±Úøù-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8•³±øù-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(êÖŠüÿÿÿÿ8Şæ¡øù-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Öë²öúÿÿÿÿ8ö±Úøù-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ö±Úøù-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ï ¤ú-
+Vsquid:S1191"5Use classes from the Java API instead of Sun classes.(„Ù•ùÿÿÿÿ8ò×ÃÑù-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(‡›–8ˆİòû-
+msquid:UselessImportCheck"?Remove this unused import 'javax.sound.midi.SoundbankResource'.(Ş¤ºùÿÿÿÿ8ó™õñû-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ê×¼©8ï ¤ú-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(®ÖĞùÿÿÿÿ8¦İõ´û-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(®ÖĞùÿÿÿÿ8¦İõ´û-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ò×ÃÑù-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŸÏë–ÿÿÿÿÿ8ò×ÃÑù-

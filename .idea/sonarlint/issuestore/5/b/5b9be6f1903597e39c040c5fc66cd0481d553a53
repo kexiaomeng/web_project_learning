@@ -1,0 +1,16 @@
+
+tsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(óÀ™âûÿÿÿÿ
+?squid:S1148'"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+O
+squid:S106."9Replace this use of System.out or System.err by a logger.(¼ëİÉ
+nsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ÿ´(
+Osquid:S1989""3Add a "try/catch" block for "setCharacterEncoding".(Ó‹ÊÍüÿÿÿÿ
+Bsquid:S19891"&Add a "try/catch" block for "forward".(Íü‚Ñûÿÿÿÿ
+lsquid:UselessImportCheck"CRemove this unused import 'org.apache.commons.beanutils.BeanUtils'.(êŸ±öşÿÿÿÿ
+Ksquid:S1191"5Use classes from the Java API instead of Sun classes.(ÿî¥(
+Hsquid:S1989"%Add a "try/catch" block for "doPost".(éöõ¦ùÿÿÿÿ8ß“éÒˆ.
+osquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ù°Øõ
+qsquid:UselessImportCheck"HRemove this unused import 'java.lang.reflect.InvocationTargetException'.(è¾†„øÿÿÿÿ
+gsquid:UselessImportCheck"CRemove this unused import 'com.sun.tracy.userlistcase.entity.User'.(à¥–ÿ
+Hsquid:S1989"%Add a "try/catch" block for "doPost".(éöõ¦ùÿÿÿÿ8ß“éÒˆ.
+Bsquid:S19891"&Add a "try/catch" block for "forward".(Íü‚Ñûÿÿÿÿ

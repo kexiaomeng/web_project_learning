@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扩展选择器</title>
+    <style>
+        div p{
+            /*子属性*/
+            color: red;
+        }
+        /*元素属性
+        元素[属性="属性值"]
+        */
+        input[type="text"]{
+            border-color: red;
+        }
+        /*伪类选择器
+           元素:状态{}
+        */
+        a:link{
+            color:yellow;
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            color: green;
+        }
+        a:active{
+            color: brown;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <p>
+            hello world
+        </p>
+    </div>
+    <p>
+        hello world
+    </p>
+
+    <input type="text" name="name" placeholder="姓名"><br>
+    <a href="#">点击我</a>
+</body>
+</html>

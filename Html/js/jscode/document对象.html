@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>document对象</title>
+</head>
+<body>
+
+    <div id="div1">div1</div>
+    <div id="div2">div2</div>
+    <div id="div3">div3</div>
+
+    <div class="div4">div4</div>
+    <div class="div4">div5</div>
+
+    <input type="text" name="username">
+
+    <script>
+        var arg = document.getElementsByTagName("div");
+        for (var i = 0; i < arg.length; i++) {
+            document.write(arg[i].textContent+"<br>");
+        }
+        document.write("换行"+"<br>");
+
+        var arg2 = document.getElementsByClassName("div4");
+        for (var i = 0; i < arg2.length; i++) {
+            document.write(arg2[i].textContent+"<br>");
+        }
+        document.write("换行"+"<br>");
+        var arg2 = document.getElementsByName("username");
+        for (var i = 0; i < arg2.length; i++) {
+            document.write(arg2[i].nodeName+"<br>");
+        }
+    </script>
+</body>
+</html>

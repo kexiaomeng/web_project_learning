@@ -1,0 +1,10 @@
+
+?squid:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Gsquid:S1989,"+Add a "try/catch" block for "sendRedirect".( Š†öıÿÿÿÿ
+?squid:S1148'"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Hsquid:S1989"%Add a "try/catch" block for "doPost".(éöõ¦ùÿÿÿÿ8Ö“éÒˆ.
+Ksquid:S1191"5Use classes from the Java API instead of Sun classes.(ÿî¥(
+Osquid:S1989"3Add a "try/catch" block for "setCharacterEncoding".(Ó‹ÊÍüÿÿÿÿ
+Hsquid:S1989"%Add a "try/catch" block for "doPost".(éöõ¦ùÿÿÿÿ8Ö“éÒˆ.
+nsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ÿ´(
+[squid:S2147&"DCombine this catch with the one at line 36, which has the same body.(åşáÿ

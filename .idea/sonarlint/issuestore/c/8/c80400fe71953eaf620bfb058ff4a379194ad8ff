@@ -1,0 +1,10 @@
+
+?squid:S1989"#Add a "try/catch" block for "read".(¢»ñ¸ıÿÿÿÿ
+@squid:S1989"$Add a "try/catch" block for "write".(ì¬ò–úÿÿÿÿ
+Jsquid:S1989".Add a "try/catch" block for "getOutputStream".(ì¬ò–úÿÿÿÿ
+@squid:S1989!"$Add a "try/catch" block for "close".(¶ò†Áşÿÿÿÿ
+;squid:S1989&"$Add a "try/catch" block for "doGet".(ï¶ßû
+;squid:S1989&"$Add a "try/catch" block for "doGet".(ï¶ßû
+isquid:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(œÜ şıÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò¸Ô
